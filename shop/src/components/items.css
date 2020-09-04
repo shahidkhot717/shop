@@ -1,0 +1,17 @@
+.item{
+    height: 50%;
+    width: 30%;
+}
+
+.itemname{
+    margin-left: 50%;
+}
+
+.itemlist{
+    display: flex; 
+    margin-left: 15px;
+}
+
+.itemlist ul li{
+    list-style: none;
+}
