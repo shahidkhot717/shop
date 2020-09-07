@@ -5,7 +5,7 @@ import Signin from './components/Signin'
 import Signup from './components/Signup'
 import Nav from './components/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Footer from './components/Footer'
 
 
 class App extends React.Component {
@@ -19,7 +19,7 @@ class App extends React.Component {
                 <Route path="/" exact component={Home} />
                 <Route path="/signin" component={Signin} />
                 <Route path="/signup" component={Signup} />
-
+                <Footer />
             </div>
             </BrowserRouter>
          );

@@ -2,8 +2,9 @@ import React from 'react'
 import homeImage from './images/home.jpg'
 import './Home.css'
 // import Nav from './Nav'
-import Item from './Items'
+import HomeScreen from './HomeScreen'
 import Footer from './Footer'
+import Item from './Items'
 
 class Home extends React.Component {
     
@@ -16,9 +17,10 @@ class Home extends React.Component {
                 <h1 className="branding">Top 10 mobile shop</h1>
                 <div>
                 <Item />
+                {/* <HomeScreen /> */}
                 </div>
                 <div>
-                    <Footer />
+                    
                 </div>
             </div>
          );

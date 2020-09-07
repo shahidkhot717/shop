@@ -1,4 +1,5 @@
-exports.products =[
+const data= {
+products :[
     {
         id : 1,
         name : "iphone",
@@ -23,3 +24,6 @@ exports.products =[
 
 
 ]
+}
+
+module.exports.data;

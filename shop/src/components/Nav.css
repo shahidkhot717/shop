@@ -1,0 +1,31 @@
+.nav{
+    background-color: black;
+    font-size: 1.5rem;
+    color: blanchedalmond;
+}
+
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+    display: flex;
+    margin-left: 15px;
+    color: blanchedalmond;
+}
+
+
+
+.logo{
+    float: right;
+}
+
+.links{
+    float: right;
+}
+
+#lis{
+    color: white;
+}
