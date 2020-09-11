@@ -2,8 +2,8 @@ import React from 'react'
 import homeImage from './images/home.jpg'
 import './Home.css'
 // import Nav from './Nav'
-import HomeScreen from './HomeScreen'
-import Footer from './Footer'
+// import HomeScreen from './HomeScreen'
+// import Footer from './Footer'
 import Item from './Items'
 
 class Home extends React.Component {
