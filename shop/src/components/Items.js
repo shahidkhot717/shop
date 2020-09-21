@@ -56,7 +56,7 @@ class Items extends React.Component {
                             <button onClick={this.cart}>
                                 { this.state.InCart ? 
                                 (<p>already in cart</p>) :
-                                (<FontAwesomeIcon icon={faCartPlus} />)}
+                                (<p>Add to cart<FontAwesomeIcon icon={faCartPlus} /></p>)}
                             </button>
                         </div>
                         

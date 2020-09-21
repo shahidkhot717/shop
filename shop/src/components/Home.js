@@ -5,6 +5,7 @@ import './Home.css'
 // import HomeScreen from './HomeScreen'
 // import Footer from './Footer'
 import Item from './Items'
+import ItemHome from './ItemHome'
 
 class Home extends React.Component {
     
@@ -16,7 +17,8 @@ class Home extends React.Component {
                 <img src={homeImage} alt="home"/>
                 <h1 className="branding">Top 10 mobile shop</h1>
                 <div>
-                <Item />
+                {/* <Item /> */}
+                <ItemHome />
                 {/* <HomeScreen /> */}
                 </div>
                 <div>

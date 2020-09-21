@@ -16,6 +16,8 @@ class Nav extends React.Component {
                     <li className="logo"><Link to="/" id="lis">TOP 10</Link></li>
                     <li className="links"><Link to="/Signin" id="lis">singin</Link></li>
                     <li className="links"><Link to="/Signup" id="lis">singup</Link></li>
+                    <li className="links"><Link to="/cart" id="lis">cart</Link></li>
+
                     
                 </ul>
             </div>

@@ -1,24 +1,24 @@
-const data= {
+module.exports= {
 products :[
     {
         id : 1,
         name : "iphone",
         price : "160",
-        image : "./images/1.jpg",
+        image : "./images/3.jpeg",
         description : "iphone"
     },
     {
-        id : 1,
+        id : 2,
         name : "iphone",
         price : "160",
-        image : "./images/1.jpg",
+        image : "./images/3.jpeg",
         description : "iphone"
     },
     {
-        id : 1,
+        id : 3,
         name : "iphone",
         price : "160",
-        image : "./images/1.jpg",
+        image : "./images/3.jpeg",
         description : "iphone"
     }
 
@@ -26,4 +26,4 @@ products :[
 ]
 }
 
-module.exports.data;
+// module.exports.data;
